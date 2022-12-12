@@ -2,6 +2,6 @@
 <head>
 <title>XSS PAYLOADS</tittle>
 <body>
-<script>alert(1)</script>
+<script>alert("document.domain")</script>
 </body>
 </head></html>
